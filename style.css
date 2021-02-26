@@ -26,6 +26,7 @@ body
     border:10px ;
     text-align: center;
    padding:20px 20px ;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     
 }
@@ -33,19 +34,21 @@ body
 
 
 
-main img{
-    margin-right: 15px;
-}
+ main img{
+    height:430px ;
+    width: 48%;
+margin-top: 10px;} 
 
 
     
 main article{
     text-align: right;
     background-color: lightblue;
-    width:400px;
-    height: 350px;
+    width:48%;
+    height: 400px;
     overflow: scroll;
     float: right;
+    margin-top: 10px;
 
 }
 
@@ -53,8 +56,11 @@ main article{
 main button{
     background-color: black;
     color:white;
-    margin-left:80% ;
+    margin-left:490px;
     margin-bottom:2% ;
+    border-radius: 5px;
+    margin-top: -20px;
+    
 }
 
 
@@ -68,3 +74,32 @@ footer{
 }
 
 
+body header div img{
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+body header div{
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+
+body header div nav{
+    margin-bottom: -100px;
+    margin-left:250px;
+    margin-top: 25px;
+}
+
+
+body main div{
+    width: 100%;
+}
+
+
+main div img{
+ width: 33%;
+ margin-bottom: 15px;
+}
